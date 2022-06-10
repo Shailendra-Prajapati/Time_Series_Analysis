@@ -1,2 +1,2 @@
 # Time_Series_Analysis-Using-LSTM-and-Classical-Models
-The aim of this project is to construct an Intelligent System to analyze and predict the stock movement using LSTM and other Classical Models. 
+The aim of this project is to construct an Intelligent System to analyze and predict the stock movement using LSTM and other Classical Models. This project will be focused on implementing Regression techniques (Classical/Neural Network) for the purpose of pattern analysis that reveals the relation between tweets and stock market prices along with the prediction of stock prices in succeeding time.
