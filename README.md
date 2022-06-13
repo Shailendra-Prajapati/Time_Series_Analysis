@@ -1,21 +1,13 @@
-## Time_Series_Analysis-Using-LSTM-and-Classical-Models
-The aim of this project is to construct an Intelligent System to analyze and predict the stock movement using LSTM and other Classical Models. This project will be focused on implementing Regression techniques (Classical/Neural Network) for the purpose of pattern analysis that reveals the relation between tweets and stock market prices along with the prediction of stock prices in succeeding time.
-Data used can be accessed from: https://www.kaggle.com/raavisoni/stocks
+In this notebook we will be looking at data from the stock market, particularly some technology stocks. We will learn how to use pandas to get stock information, visualize different aspects of it, and finally we will look at a few ways of analyzing the risk of a stock, based on its previous performance history. We will also be predicting future stock prices through a Long Short Term Memory (LSTM) method!
 
-Financial Market 'Historical Time Series Data' have been used to predict and analyse the model.
-Top 10 Toronto Stock Exchange(TSX) values from January 2016 to April 2020 dataset from Kaggle is being used.
-### Data Pre-Processing for Classical Method:
-Dataset split into 70%-30% training and testing data. Open,High, Low and Close are used and rest are dropped.
-
-### Data Pre-Processing for ANN :
-Sorted Dataset based on Dates.Features - Low, High, Open and Close. 70% Training Data and 30% Testing Data
-
-### Data Pr-Processing for Recurrent Neural Network: 
-For Long Short-Term Memory(LSTM), Feature- Low, Open, High and Volume were trained. 70% training set and 30% testing set. 'MinMaxScaler' Normalizer  used to normalize teh dataset
-
-### Model Prediction
-Machine Learning and Deep Learning technikques are identified as the primary approach for all predictive learning problems. 
-A) Artificial Neural Network
-B) Recurrent Neural Network
-C) Classical Methods(KNN< LASSO, RIDGE, Random Forest, SVM)
+We'll be answering the following questions along the way:
+    1.)What was the change in price of the stock over time?
+    2.) What was the daily return of the stock on average?
+    3.) What was the moving average of the various stocks?
+    4.) What was the correlation between different stocks'?
+    5.) How can we attempt to predict future stock behavior? (Predicting the closing price stock price of APPLE inc using LSTM)
+    6.) How we can implement FBProphet to find the trend and predict the closing price
+    
+For the first four question dataset has been downloaded from the Yahoo using the Yfinance Library for the last one year from the current date.
+For the model prediction I have taken dataset from the 2012-01-01 to till using the Pandas DataReader library which is used to fecth the data from the Yahoo
 
