@@ -7,10 +7,15 @@ Prophet is Facebook's library for time series forecasting. In my opinion, Prophe
 We'll be answering the following questions along the way:
 
 1.)What was the change in price of the stock over time?
+
 2.) What was the daily return of the stock on average?
+
 3.) What was the moving average of the various stocks?
+
 4.) What was the correlation between different stocks'?
+
 5.) How can we attempt to predict future stock behavior? (Predicting the closing price stock price of APPLE inc using LSTM)
+
 6.) How we can implement FBProphet to find the trend and predict the closing price
     
 For the first four question dataset has been downloaded from the Yahoo using the Yfinance Library for the last one year from the current date.
